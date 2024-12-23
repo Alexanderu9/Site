@@ -1,12 +1,286 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#MeuNome {
+    color: #000;
+}
+
+#MeuNome:hover { 
+    color: rgb(20, 193, 212);
+}
+
+.cambiarColorMenu:hover {
+    color: #000;
+}
+
+.RetornarMenu {
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.RetornarMenu {
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.RetornarMenu:hover {
+    color: #fff;
+}
+
+
+#sobre h2 {
+    color: rgb(20, 193, 212);
+
 }
 
 #sobre {
+    color: #fff;
+    background-color: rgb(83, 83, 83);
+    border: 3px solid rgb(20, 193, 212); 
+    border-radius:  100px;
+}
+
+
+#Habilidades h2 {
+
+    color: rgb(20, 193, 212);
+
+}
+
+#tablaCompleta {
+
+    margin: 40 px;
+}
+
+.titulotabla {
+
+
+    color: rgb(20, 193, 212);
+    text-align: center;
+}
+
+#Projetos {
+    background-color: rgb(83, 83, 83);
+    border: 3px solid rgb(20, 193, 212); 
+    border-radius:  100px;
+}
+
+#Projetos h3 {
+    color: #000;
+}
+
+#Projetos p {
+    margin-top: 20px;
+text-align: center;
+}
+
+#jogos {
 
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: black;
-    color: aliceblue;
+    text-decoration: none; 
+    
+    color: #000
 }
+
+#jogos:hover {
+    color: rgb(20, 193, 212);
+}
+
+.informacionDelasTablas {
+
+    text-align: center;
+
+    
+}
+
+#submit {
+    border-radius: 100px;
+    width: 100px;
+}
+
+#checkbox {
+    width: 20px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(83, 83, 83);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #ffd700;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: rgb(83, 83, 83);
+    text-align: center;
+}
+
+section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+section a {
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+section a:hover {
+    color: #0056a3;
+}
+
+article ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: rgb(83, 83, 83);
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer form {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+footer form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+footer form input, footer form textarea, footer form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+footer form input[type="submit"] {
+    background-color: rgb(83, 83, 83);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer form input[type="submit"]:hover {
+    background-color: #0056a3;
+}
+
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    footer form input, footer form textarea, footer form select {
+        font-size: 0.9rem;
+    }
+}
+
+
