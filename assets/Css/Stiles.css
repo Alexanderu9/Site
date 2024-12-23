@@ -42,7 +42,8 @@
 
 #sobre {
     color: #fff;
-    background-color: rgb(83, 83, 83);
+    backdrop-filter: blur(100px);
+    background-color: #111;
     border: 3px solid rgb(20, 193, 212); 
     border-radius:  100px;
 }
@@ -67,13 +68,14 @@
 }
 
 #Projetos {
-    background-color: rgb(83, 83, 83);
+    backdrop-filter: blur(100px);
+    background-color: #111;
     border: 3px solid rgb(20, 193, 212); 
     border-radius:  100px;
 }
 
 #Projetos h3 {
-    color: #000;
+    color: #fff;
 }
 
 #Projetos p {
@@ -86,7 +88,7 @@ text-align: center;
     text-align: center;
     text-decoration: none; 
     
-    color: #000
+    color: #fff
 }
 
 #jogos:hover {
